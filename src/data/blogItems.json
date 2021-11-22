@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "A Linkedin Business Auto Search with Chatbot Integration",
+      "desc": "All / Applications / Azure / Cloud Computing / Marketing / Node.js / Vue.js / Web Apps",
+      "thumbnailURL": "https://cdn.hdwebsoft.com/wp-content/uploads/2020/12/2-4.jpg.webp"
+    },
+    {
+      "id": 2,
+      "title": "SuiteCRM Module Developments",
+      "desc": "All / Angular.js / jQuery / Marketing / MySQL / PHP / Shopping / SSO / Tools & Utilities / Web Apps",
+      "thumbnailURL": "https://cdn.hdwebsoft.com/wp-content/uploads/2020/12/suit.jpg.webp"
+    },
+    {
+      "id": 3,
+      "title": "An oil and gas pressure monitoring system",
+      "desc": "All / Angular.js / BI / Big Data / iOS / IoT / IoT & Utilities / Map & Location Based / Mobile Apps / Node.js / Platform / React Native / Real Time / Tools & Utilities / Visualization / Web Apps",
+      "thumbnailURL": "https://cdn.hdwebsoft.com/wp-content/uploads/2020/12/toku-1.jpg.webp"
+    },
+    {
+      "id": 4,
+      "title": "Shopify Integration to an All-in-One Seller Workspace",
+      "desc": "All / CakePHP / CMS / eCommerce / eCommerce & Retail / Laravel / PHP / Platform / Web Apps / Websites",
+      "thumbnailURL": "https://cdn.hdwebsoft.com/wp-content/uploads/2020/12/Shopify-3.jpg.webp"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.blog__item {
+  width: 320px;
+  margin: 15px 0;
+  div {
+    transition: 0.3s all;
+  }
+  &:hover {
+    div {
+      transition: 0.3s all;
+      color: #1890ff;
+    }
+  }
+}

@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react'
+import './App.css'
+import '../node_modules/antd/dist/antd.css'
+import Home from './pages/home/home.page'
+import Blog from './pages/blog/blog.page'
+import Technology from './pages/technology/technology.page'
+import Company from './pages/company/company.page'
+import Header from './components/header/header.component'
+import Footer from './components/footer/footer.component'
+import Article from './pages/article/article.page'
+import SignIn from './pages/signin/signin.page'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='blog' element={<Blog />}></Route>
+        <Route path='blog/:articleId' element={<Article />} />
+        <Route path='/technology' element={<Technology />} />
+        <Route path='/company' element={<Company />} />
+        <Route path='/sign-in' element={<SignIn />} />
+        <Route
+          path='*'
+          element={
+            <main style={{ padding: '1rem' }}>
+              <h1>Content not found!</h1>
+            </main>
+          }
+        />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
