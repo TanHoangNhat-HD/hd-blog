@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { Card } from 'antd'
-import { Blog } from '../../core/models/blog'
+import { Article } from '../../core/models/article'
 import style from './blogItem.module.scss'
 import { useNavigate } from 'react-router'
 
-export default function BlogItem({ id, title, desc, thumbnailURL }: Blog) {
+export default function BlogItem({ id, title, desc, thumbnailURL }: Article) {
   const navigate = useNavigate()
 
   function handleItemClick() {

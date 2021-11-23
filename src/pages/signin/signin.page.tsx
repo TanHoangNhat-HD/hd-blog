@@ -1,9 +1,11 @@
+import { Content } from 'antd/lib/layout/layout'
 import * as React from 'react'
+import SignInForm from '../../components/signin-form/signInForm.component'
 
 export default function SignIn() {
   return (
-    <div>
-      <h1>Sign In</h1>
-    </div>
+    <Content>
+      <SignInForm />
+    </Content>
   )
 }
